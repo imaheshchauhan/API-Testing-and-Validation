@@ -1,0 +1,9 @@
+# behat.yml
+
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext:
+            parameters:
+              github_token: "YOUR GITHUB TOKEN"
